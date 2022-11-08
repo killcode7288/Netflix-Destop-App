@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+.btn-danger{
+    background-color: #E50914;
+    border-radius: 3px;
+}
+.img123 {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 80vh;
+    padding: 0px;
+}
+.row{
+    background-color: black;
+    
+}
+.head{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+h5{
+    font-weight: light;
+}
+
+.tv-animated img {
+    height: 100%;
+    object-fit: contain;
+}
+.kids img {
+    height: 100%;
+    object-fit: contain;
+}
+h1{
+    font-size: 40px;
+}
+.text{
+    position: relative;
+    top: 150px;
+}
+.text1{
+    position: relative;
+    top: 100px;
+}
+.text2{
+    position: relative;
+    top: 100px;
+}
+.cont{
+    background-color: black;
+}
+
+.accordion-item{
+    background-color: #303030;
+    color: #fff;
+}
+.accordion-button{
+    background-color: #303030;
+        color: #fff;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .bg-overlay{
+        height: 60vh;
+    }
+    .every{
+        text-align: center;
+    }
+    .text,.text1,.text2{
+        top: 0;
+    }
+    .header{
+        padding: 0;
+        margin: 0;
+    }
+}
